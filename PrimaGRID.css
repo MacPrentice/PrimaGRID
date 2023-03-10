@@ -1,0 +1,201 @@
+.firstSectionContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*#headingImage{
+    height: 624px;
+    width: 100%;  or width: auto; which doesn't resize image but keeps it constant*
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+*/
+.firstContainer {
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    top: 65px;
+    z-index: 5;
+}
+
+img.companyLogo {
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.secondContainer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    top: 180px;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.introduction{
+    text-align: center;
+    color: rgb(196, 157, 61);
+    letter-spacing: 0.3rem;
+    font-weight: 800;
+    font-size: 45px;
+    margin: 10px 0;
+} 
+
+hr {
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+.subIntroduction{
+    margin: 7px 0 0 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1.0rem;
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(196, 157, 61);
+}
+
+@media (max-width: 555px)  {
+    .subIntroduction{
+        font-size: 35px;
+        letter-spacing: 0.3rem;
+    }
+    .introduction{
+        font-size: 30px;
+    }
+}
+
+.secondSectionContainer{
+    margin-top: 0;
+    background-color: #ddd;
+}
+.thirdSectionContainer{
+    margin-top: 0;
+    background-color: #000;
+}
+
+#productsHeading,
+#servicesHeading{
+    display: block;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 30px;
+}
+#servicesHeading{
+    color: #fff;
+}
+.container{
+    position: relative;
+}
+
+.secondSection,
+.thirdSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    padding: 10px 40px 80px;
+}
+
+@media (max-width: 925px) {
+    .secondSection,
+    .thirdSection{
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        padding: 20px 40px 50px;
+    }
+}
+
+.images{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sectionTitle{
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 800;  
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.mainText {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+#consumables, 
+#medicalDevices,
+#mantainanceRepair,
+#installation{
+    width: 87%;
+    padding: 40px 0 50px 40px;
+}
+
+/*HOVER EFFECTS ON IMAGE*/
+.mainText .subtitle {
+    transition: 1s;
+    line-height: 29px;
+    font-weight: 600;
+    font-size: 18px;
+    color: transparent;
+ }
+ 
+.mainText:hover .subtitle{
+    font-weight: 600;
+    line-height: 29px;
+    font-size: 18px;
+    color: goldenrod;
+}
+/*JAVA EFFECT FOR ON AND OFF*/
+.img-darken{
+    transition: 1s;
+    filter: brightness(10%);
+}
+
+.subtitle{
+    line-height: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.links a{
+    text-decoration: none;
+    color: rgb(41, 151, 255);
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+}
+
+.readMore,
+.learnMore,
+.getQuote{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(41, 151, 255);
+}

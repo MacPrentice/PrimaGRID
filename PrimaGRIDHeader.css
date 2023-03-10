@@ -1,0 +1,134 @@
+header{
+    top: 0;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+}
+
+/*Work on for responsiveness*/
+@media (min-width: 500px) { 
+    header{
+        max-height: 100px;
+    }
+    nav{
+        display: flex;
+    }
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#justHeader{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.other-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li ,
+.other-links li {
+    margin-bottom: 0;
+    padding: 2px 8px 4px 8px;
+}
+
+li .desktop,
+li .menu {
+    border-radius: 5px;
+    padding: 2px 8px 4px 8px;
+    border: none;
+    outline: none;
+}
+
+li .desktop:hover,
+li .menu:hover {
+    background-color: #2b2b2b;
+}
+
+.desktop{
+    display: initial;
+}
+
+@media (max-width: 1107px){
+.desktop{
+    display: none;
+    }
+}
+
+aside{
+    position: fixed;
+    transition: right 0.4s ease;
+    right: -320px;
+    width: 200px;
+    background-color: #fff;
+    padding: 80px 40px;
+    z-index: 100000;
+    height: 100vh;
+}
+
+aside.active{
+    right: 0;
+}
+
+aside a{
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    padding: 12px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+aside button.close{
+    font-size: 40px;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: 1px 12px;
+    font-weight: 100;
+    color: #505050;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+}
+
+aside button.close:hover{
+    background-color: #eee;
+}   
+
+.backdrop{
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(5px);
+    z-index: 9999;
+}
+
+.backdrop.active{
+    display: block;
+}

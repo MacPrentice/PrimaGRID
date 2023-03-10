@@ -1,0 +1,112 @@
+*{  
+  box-sizing: border-box;
+}
+.consumables-section,
+.devices-section{
+  width: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  padding-bottom: 50px;
+}
+.devices-section{
+  background-color: #fff;
+}
+.consumables-header,
+.devices-header{
+  padding-top: 50px;
+  margin-left: 180px;
+}
+h2.consumables{
+  color: #fff;
+}
+h2.consumables,
+h2.devices{
+  margin-bottom: 0;
+  letter-spacing: 0.3rem;
+  line-height: 24px;
+  font-size: 38px;
+  padding-bottom: 10px;
+}
+hr.line3{
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+hr.line4{
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.products{
+  display: flex;
+  padding-top: 0px;
+  height: 600px;
+  width: 80%;
+  margin: auto;
+}
+.products-content{
+  display: flex;
+  flex-direction: column;
+}
+.products img{
+  border-radius: 5px;
+  margin: 15px 0 0 30px;
+  width: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.consumables-content{
+  color: white;
+}
+.consumables-content,
+.device-content{
+  text-align: justify;
+  margin-left: 50px;
+  padding-top: 10px;
+  line-height: 24px;
+  font-weight: 500;
+}
+ul.consumable-stuff li{
+  color: #fff;
+}
+ul.consumable-stuff li,
+ol.device-stuff li{
+  margin: 20px 0 0 80px;
+  font-weight: 500;
+  list-style: disc;
+  font-size: 15px;
+}
+/* Styles for small screens */
+@media only screen and (max-width: 1241px) {
+    .products {
+      flex-direction: column;
+      height: auto;
+    }
+    .products img {
+      width: 100%;
+      margin: 15px 0;
+    }
+    .products-content {
+      width: 100%;
+      margin-left: 0;
+      padding-top: 20px;
+    }
+  }
+  /* Styles for large screens */
+  @media only screen and (min-width: 1241px) {
+    .products {
+      height: 600px;
+    }
+    .products img {
+      width: 500px;
+      margin: 15px 0 0 30px;
+    }
+    .products-content {
+      width: 500px;
+      margin-left: 50px;
+      padding-top: 10px;
+      text-align: justify;
+    }
+  }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="General.css"/>
+        <link rel="stylesheet" href="PrimaGRIDHeader.css"/>
+        <link rel="stylesheet" href="PrimaGRIDFooter.css"/> <!--Might take it out... still thinking-->
+        <link rel="stylesheet" href="Get Quote.css"/>
+
+        <meta charset="utf-8">
+        <title>PrimaGRID HESTECH</title>    
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="headerLogo">
+                    <a href="PrimaGRID.html"><img id="justHeader" src="Images/Logo/Logo.png"/></a>
+                </div>
+                <ul class="nav-links">
+                    <li> 
+                        <a href="PrimaGRID.html" class="desktop">Home</a>
+                    </li>
+                    <li> 
+                        <a href="About Us.html" class="desktop">About Us</a>
+                    </li>
+                    <li> 
+                        <a href="Products.html" class="desktop">Products</a>
+                    </li>
+                    <li> 
+                        <a href="Services.html" class="desktop">Services</a>
+                    </li>
+                </ul>
+                <ul class="other-links">
+                    <li> 
+                        <a href="Get Quote.html" class="desktop">Get Quote</a>
+                    </li>
+                    <li> 
+                        <a href="tel: +233 558 20 3837" class="desktop">Contact Us</a>
+                    </li>
+                    <li> 
+                        <a href="#" class="menu" id="menuButton">Menu</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="backdrop"></div>
+
+        <aside>
+            <button class="close">&times;</button>
+            <a href="PrimaGRID.html">Home</a>
+            <a href="About Us.html">About Us</a>
+            <a href="Products.html">Products</a>
+            <a href="Services.html">Services</a>
+            <a href="Get Quote.html">Get Quote</a>
+            <a href="tel: +233 558 20 3837">Contact Us</a>
+        </aside>
+        <!--<div id="overlay"></div> incase i want to make image background-->
+        <div class="overlay">
+            <form action="https://formspree.io/f/xdovznay" method="POST"><!-- id="contact-form" onsubmit="event.preventDefault(); validateForm()">-->
+                <h1>Contact Us</h1>
+            
+                <div class="form-group">
+                    <label for="name">Name/Company:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Name or Company Name" required>
+                    <small class="error"></small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <small class="error"></small>
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+                    <small class="error"></small>
+                </div>
+            
+                <div class="center">
+                    <button type="submit">Send Message</button>
+                    <div id="success" class="success-message">
+                        <i class="fa fa-check-circle"></i> Thanks for your message! We'll get back to you soon.
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="https://kit.fontawesome.com/7d23afa087.js"></script>
+    <script src="nav.js"></script>
+    <script src="Getquote.js"></script>
+</html>
