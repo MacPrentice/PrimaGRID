@@ -79,7 +79,7 @@ ol.device-stuff li{
   font-size: 15px;
 }
 /* Styles for small screens */
-@media only screen and (max-width: 1241px) {
+@media only screen and (max-width: 1240px) {
     .products {
       flex-direction: column;
       height: auto;
@@ -93,7 +93,40 @@ ol.device-stuff li{
       margin-left: 0;
       padding-top: 20px;
     }
-  }
+    .consumables-header,
+    .devices-header{
+      padding-top: 50px;
+      margin-left: 50px;
+    }
+    h2.consumables,
+    h2.devices{
+      margin-bottom: 0;
+      letter-spacing: 0.1rem;
+      line-height: 30px;
+      font-size: 30px;
+      padding-bottom: 10px;
+    }
+    .consumables-content,
+    .device-content{
+      text-align: justify;
+      margin-left: 20px;
+      padding-top: 10px;
+      line-height: 24px;
+      font-weight: 400;
+    }
+    ul.consumable-stuff li{
+      margin: 20px 0 0 50px;
+      font-weight: 400;
+      list-style: disc;
+      font-size: 15px;
+    }
+    ol.device-stuff li{
+      margin: 20px 0 0 10px;
+      font-weight: 400;
+      list-style: disc;
+      font-size: 15px;
+    }
+}
   /* Styles for large screens */
   @media only screen and (min-width: 1241px) {
     .products {

@@ -8,7 +8,7 @@ function read(){
             display = "none";
         
         document.getElementById("readMore-button").innerHTML =
-            "Read Less";
+            "Show Less";
         i = 1;
     }
     else{

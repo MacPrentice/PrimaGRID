@@ -97,20 +97,63 @@ hr {
     position: relative;
 }
 
-.secondSection,
-.thirdSection{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 40px;
-    padding: 10px 40px 80px;
-}
-
+/*+++++++
 @media (max-width: 925px) {
     .secondSection,
     .thirdSection{
         grid-template-columns: 1fr;
         row-gap: 40px;
         padding: 20px 40px 50px;
+    }
+} 
+
+/* Styles for large screens */
+@media only screen and (min-width: 925px) {
+    .secondSection,
+    .thirdSection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        padding: 10px 40px 80px;
+    }
+}
+
+/* Styles for small screens */
+@media only screen and (max-width: 924px) {
+    .secondSection,
+    .thirdSection {
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+        column-gap: 40px;
+        padding: 20px 40px 50px;
+        width: 100%;
+    }
+    #consumables,
+    #medicalDevices,
+    #mantainanceRepair,
+    #installation{
+        font-size: 36px;
+        line-height: 30px;
+    }
+    .subtitle{
+        line-height: 18px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-weight: 400;
+    }
+    
+    .links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .links a{
+        text-decoration: none;
+        color: rgb(41, 151, 255);
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 300;
     }
 }
 

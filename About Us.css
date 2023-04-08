@@ -65,17 +65,22 @@ button#readMore-button:hover{
     color: #3d3d3d;
 }
 @media screen and (max-width: 700px) {
-    .about-section{
-        flex-direction: column;
-        flex: 1fr;
-    }
-    .missionStatement-section{
-        flex-direction: column;
-        flex: 1fr;
-    }
+    .about-section,
+    .missionStatement-section,
     .companyVision-section{
         flex-direction: column;
         flex: 1fr;
+        width: 100%;
+    }
+    .about-header h1,
+    .missionStatement-header h1,
+    .companyVision-header h1{
+        font-size: 35px;
+    }
+    .about-content,
+    .missionStatement-content,
+    .companyVision-content{
+        width: 80%;
     }
 }
 @media (max-width: 506px){
@@ -83,7 +88,6 @@ button#readMore-button:hover{
         padding: 6px 10px;
     }
 }
-
 
 /*MISSION STATEMENT*/
 .missionStatement{
