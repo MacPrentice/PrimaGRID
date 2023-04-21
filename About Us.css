@@ -131,7 +131,7 @@ button#readMore-button:hover{
 }
 .companyVision-section{
     width: 80%;
-    display: flex;
+    /*display: flex;*/
     margin: auto;
     padding-top: 100px;
     justify-content: center;
@@ -139,22 +139,48 @@ button#readMore-button:hover{
     text-align: center;
 }
 .companyVision-content{
-    width: 55%;
+    width: 100%;
 }
-
-.about-image img{
-    width: 80%;
-    height: auto;
+.companyVision-header h1{
+    font-size: 60px;
+    display: block;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    padding-left: 100px;
 }
-.companyVision-content .companyVision-header{
-    /*text-transform: uppercase;*/
-    font-size: 28px;
+.companyVision-text-image{
+    display: flex;
+    width: 100%;
 }
-.companyVision-content .companyVision-text p{
+.companyVision-text{
+    width: 45%;
     margin-top: 20px;
+}
+.companyVision-text p{
     font-size: 18px;
     line-height: 1.5;
 }
+
+.about-image-cv{
+    margin-top: 20px;
+    width: 55%;
+    margin-bottom: 100px;
+    /*min-height: 100px;
+    min-width: 200px;*/
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-image: url(Images/Transition/IMG-20230329-WA0009.jpg);
+}
+/*.about-image-cv img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}*/
 
 /*team*/
 .teamVision{
