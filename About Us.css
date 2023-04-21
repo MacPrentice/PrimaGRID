@@ -155,3 +155,59 @@ button#readMore-button:hover{
     font-size: 18px;
     line-height: 1.5;
 }
+
+/*team*/
+.teamVision{
+    width: 100%;
+    min-height: 100%;
+    height: 500px;
+    background-color: #000;
+}
+.teamVision-section{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+}
+.teamVision-content{
+    width: 55%;
+}
+
+.team-about-image{
+    width: 100%;
+    height: auto;
+}
+
+.macmillan-details{
+    display: flex;
+    color: white;
+}
+.macmillan-position{
+    padding-left: 8px;
+}
+.macmillan-position h2{
+    margin: 0;
+    padding-bottom: 3px;
+    color: goldenrod;
+    font-size: 18px;
+}
+.macmillan-position p{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+.team-about-image .macmillan-details img{
+    width: 10%;
+    height: auto;
+}
+.teamVision-content .teamVision-header{
+    /*text-transform: uppercase;*/
+    display: block;
+    font-size: 28px;
+    color: #fff;
+}
+.teamVision-content .teamVision-images{
+    width: 20px;
+    height: 30px;
+}
