@@ -87,7 +87,9 @@
 }
 .maintenance-installation-types{
     width: 80%;
-    margin-left: 100px;
+    margin-left: 135px;
+    background-color: #cccc;
+    padding: 10px;
 }
 h1.maintenance-installation-title{
     padding-left: 20px;
@@ -112,7 +114,7 @@ ol li{
 
 @media screen and (max-width: 800px){
     .service-box{
-        max-width: 100%;
+        max-width: 100%; 
     }
     .maintenance-installation-title{
         font-size: 30px;
@@ -148,4 +150,55 @@ ol li{
     .services-section{
         padding-top: 90px;
     }
+}
+.service-cover{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    padding-bottom: 40px;
+}
+.outsource-service{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    row-gap: 50px;
+}
+
+.service-about-image{
+    width: 100%;
+    height: auto;
+    background-color: rgb(53, 53, 53);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.service-details{
+    display: flex;
+    color: white;
+}
+.service-position{
+    padding-left: 8px;
+    padding-top: 10px;
+}
+.service-position h2{
+    margin: 0;
+    padding-bottom: 3px;
+    color: goldenrod;
+    font-size: 18px;
+    width: 80%;
+}
+.service-position p{
+    margin: 0;
+    padding-top: 5px;
+    font-size: 15px;
+    width: 80%;
+}
+
+.service-details img{
+    width: 100px;
+    height: auto;
 }
