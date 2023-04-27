@@ -122,10 +122,14 @@ hr {
 @media only screen and (max-width: 924px) {
     .secondSection,
     .thirdSection {
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-        column-gap: 40px;
+        display: flex;
+        flex-direction: column;
+        flex: 1fr;
+        row-gap: 35px;
         padding: 20px 40px 50px;
+        width: 100%;
+    }
+    .container{
         width: 100%;
     }
     #consumables,
