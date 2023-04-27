@@ -301,5 +301,7 @@ button#readMore-button:hover{
     .team-details{
         padding-bottom: 30px;
     }
-
+    .team-position{
+        padding-left: 0;
+    }
 }
