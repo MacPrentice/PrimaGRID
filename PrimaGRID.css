@@ -97,16 +97,6 @@ hr {
     position: relative;
 }
 
-/*+++++++
-@media (max-width: 925px) {
-    .secondSection,
-    .thirdSection{
-        grid-template-columns: 1fr;
-        row-gap: 40px;
-        padding: 20px 40px 50px;
-    }
-} 
-
 /* Styles for large screens */
 @media only screen and (min-width: 925px) {
     .secondSection,
