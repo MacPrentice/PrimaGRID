@@ -122,6 +122,25 @@ button#readMore-button:hover{
     font-size: 18px;
     line-height: 1.5;
 }
+@media only screen and (max-width: 650px) {
+    .missionStatement-section{
+        width: 80%;
+        display: flex;
+        margin: auto;
+        padding-top: 100px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .missionStatement-content{
+        width: 100%;
+    }
+    
+    .about-image img{
+        width: 100%;
+        height: auto;
+    }
+}
 
 /*company Vision*/
 .companyVision{
@@ -147,7 +166,7 @@ button#readMore-button:hover{
     justify-content: start;
     align-items: start;
     text-align: start;
-    padding-left: 100px;
+    /*padding-left: 50px;*/
 }
 .companyVision-text-image{
     display: flex;
@@ -178,6 +197,13 @@ button#readMore-button:hover{
 
 /* Styles for small screens */
 @media only screen and (max-width: 650px) {
+    .companyVision-header h1{
+        font-size: 55px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     .companyVision-text-image{
         flex-direction: column;
         /*flex: 1fr;*/
@@ -254,4 +280,26 @@ button#readMore-button:hover{
 .teamVision-content .teamVision-images{
     width: 20px;
     height: 30px;
+}
+@media only screen and (max-width: 650px) {
+    .teamVision-content{
+        width: 100%;
+    }
+    .teamVision-content .teamVision-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .team-about-image .team-details img{
+        width: 20%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .team-details{
+        padding-bottom: 30px;
+    }
+
 }
