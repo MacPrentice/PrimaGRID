@@ -133,8 +133,8 @@ hr {
         line-height: 10px;
         padding-left: 25px;
         padding-right: 25px;
-        font-weight: 400;
-        font-size: 15px;
+        font-weight: 300;
+        font-size: 10px;
     }
     
     .links{
@@ -147,7 +147,7 @@ hr {
         text-decoration: none;
         color: rgb(41, 151, 255);
         font-size: 12px;
-        line-height: 15px;
+        line-height: 10px;
         font-weight: 300;
     }
 }
