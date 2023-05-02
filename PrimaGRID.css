@@ -122,15 +122,15 @@ hr {
     .container{
         width: 100%;
     }
-    #consumables,
+    /*#consumables,
     #medicalDevices,
     #mantainanceRepair,
     #installation{
-        font-size: 32px;
-        line-height: 26px;
-    }
+        font-size: 20px;
+        line-height: 22px;
+    }*/
     .subtitle{
-        line-height: 15px;
+        line-height: 10px;
         padding-left: 25px;
         padding-right: 25px;
         font-weight: 400;
@@ -150,7 +150,8 @@ hr {
         font-weight: 300;
     }
     .sectionTitle h2{
-        font-size: 25px;
+        font-size: 20px;
+        line-height: 22px
     }
 }
 
