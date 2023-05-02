@@ -63,7 +63,7 @@ hr {
     color: rgb(196, 157, 61);
 }
 
-@media (max-width: 555px)  {
+@media only screen and (max-width: 555px){
     .subIntroduction{
         font-size: 35px;
         letter-spacing: 0.3rem;
@@ -126,11 +126,11 @@ hr {
     #medicalDevices,
     #mantainanceRepair,
     #installation{
-        font-size: 36px;
-        line-height: 30px;
+        font-size: 32px;
+        line-height: 26px;
     }
     .subtitle{
-        line-height: 18px;
+        line-height: 15px;
         padding-left: 25px;
         padding-right: 25px;
         font-weight: 400;
@@ -145,7 +145,7 @@ hr {
     .links a{
         text-decoration: none;
         color: rgb(41, 151, 255);
-        font-size: 15px;
+        font-size: 14px;
         line-height: 20px;
         font-weight: 300;
     }
