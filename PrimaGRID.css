@@ -145,9 +145,12 @@ hr {
     .links a{
         text-decoration: none;
         color: rgb(41, 151, 255);
-        font-size: 14px;
-        line-height: 20px;
+        font-size: 12px;
+        line-height: 15px;
         font-weight: 300;
+    }
+    .sectionTitle h2{
+        font-size: 25px;
     }
 }
 
