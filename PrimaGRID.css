@@ -126,7 +126,7 @@ hr {
     #medicalDevices,
     #mantainanceRepair,
     #installation{
-        font-size: 20px;
+        font-size: 25px;
         line-height: 22px;
     }
     .subtitle{
@@ -134,6 +134,7 @@ hr {
         padding-left: 25px;
         padding-right: 25px;
         font-weight: 400;
+        font-size: 20px;
     }
     
     .links{
@@ -149,10 +150,6 @@ hr {
         line-height: 15px;
         font-weight: 300;
     }
-    /*.sectionTitle h2{
-        font-size: 20px;
-        line-height: 22px
-    }*/
 }
 
 .images{
