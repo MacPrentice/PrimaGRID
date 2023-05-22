@@ -27,7 +27,7 @@ img.companyLogo {
     height: 150px;
 }
 
-.secondContainer {
+/*.secondContainer {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -62,8 +62,8 @@ hr {
     font-weight: 800;
     color: rgb(196, 157, 61);
 }
-
-@media only screen and (max-width: 555px){
+*/
+/*@media only screen and (max-width: 600px){
     .subIntroduction{
         font-size: 35px;
         letter-spacing: 0.3rem;
@@ -71,8 +71,31 @@ hr {
     .introduction{
         font-size: 30px;
     }
+}*/
+/*@media only screen and (max-width: 500px){
+    .secondContainer {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        top: 180px;
+        z-index: 5;
+        overflow: hidden;
+    }
 }
-
+*/
+/*@media only screen and (max-width: 923px){
+    .subIntroduction{
+        font-size: 40px;
+        letter-spacing: 0.4rem;
+    }
+    .introduction{
+        font-size: 32px;
+    }
+}
+*/
 .secondSectionContainer{
     margin-top: 0;
     background-color: #ddd;
@@ -127,7 +150,7 @@ hr {
     #mantainanceRepair,
     #installation{
         font-size: 28px;
-        line-height: 25px;
+        line-height: 22px;
     }
     .subtitle{
         line-height: 10px;
@@ -236,4 +259,97 @@ hr {
 .getQuote{
     cursor: pointer;
     border-bottom: 2px solid rgb(41, 151, 255);
+}
+
+.welcome-message-container{
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-container{
+    width: 70%;
+    display: flex;
+    justify-content: start;
+}
+
+.welcome-container{
+    margin-left: 50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: #ddd;
+}
+
+.messageHeading h1{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1rem;
+    color: rgb(224, 224, 224);
+}
+
+.messageContent h2{
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.buttons{
+    padding-top: 50px;
+}
+
+.click-me{
+    margin-right: 5px;
+    padding: 7px;
+    border-color: rgb(270, 270, 270);
+    border-width: 0.5px;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    letter-spacing: 0.1rem;
+}
+
+.click-me a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 838px) {
+    .buttons{
+        padding-top: 30px;
+    }
+    .click-me{
+        margin-bottom: 7px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buttons{
+        padding-top: 30px;
+    }
+    .click-me{
+        margin-bottom: 7px;
+    }
+    .messageHeading h1{
+        font-size: 11px;
+        font-weight: 200;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 0.1rem;
+        color: rgb(224, 224, 224);
+    }
+    .messageContent h2{
+        font-size: 22px;
+    }
+    .welcome-container{
+        width: 70%;
+    }
+}
+.hand img{
+    height: 300px;
+    margin-left: -30px;
 }
