@@ -370,4 +370,8 @@ hr {
         width: 50%;
         margin-left: -10px;
     }
+    .hand img{
+        height: 300px;
+        margin-left: 30px;
+    }
 }
