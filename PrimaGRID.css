@@ -334,9 +334,6 @@ hr {
 }
 
 @media only screen and (max-width: 500px) {
-    .welcome-message-container{
-        width: 100%;
-    }
     .buttons{
         padding-top: 30px;
     }
@@ -354,8 +351,8 @@ hr {
         font-size: 22px;
     }
     .welcome-container{
-        width: 80%;
-        margin-left: 0px;
+        width: 70%;
+        margin-left: 20px;
     }
     .messageHeading h1{
         font-size: 7px;
@@ -368,10 +365,10 @@ hr {
     }
     .message-container{
         width: 60%;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .hand img{
         height: 300px;
-        margin-left: -30px;
+        margin-left: -50px;
     }
 }
