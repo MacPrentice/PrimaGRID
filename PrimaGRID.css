@@ -328,7 +328,15 @@ hr {
     }
 }
 
+.hand img{
+    height: 300px;
+    margin-left: -30px;
+}
+
 @media only screen and (max-width: 500px) {
+    .welcome-message-container{
+        width: 100%;
+    }
     .buttons{
         padding-top: 30px;
     }
@@ -346,10 +354,24 @@ hr {
         font-size: 22px;
     }
     .welcome-container{
-        width: 70%;
+        width: 80%;
+        margin-left: 0px;
     }
-}
-.hand img{
-    height: 300px;
-    margin-left: -30px;
+    .messageHeading h1{
+        font-size: 7px;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+    .messageContent h2{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .message-container{
+        width: 50%;
+        margin-left: -10px;
+    }
+    .hand{
+        height: 300px;
+        margin-left: -30px;
+    }
 }
