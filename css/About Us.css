@@ -187,12 +187,10 @@ button#readMore-button:hover{
     margin-bottom: 20px;
     /*min-height: 100px;
     min-width: 200px;*/
-
+    background: url(file:///C:/Users/USER/Desktop/CODING/PrimaGRID-Website/Images/Transition/IMG-20230329-WA0009.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
-    background-image: url(Images/Transition/IMG-20230329-WA0009.jpg);
 }
 
 /* Styles for small screens */
@@ -222,7 +220,7 @@ button#readMore-button:hover{
         background-position: center;
         background-repeat: no-repeat;
     
-        background-image: url(Images/Transition/IMG-20230329-WA0009.jpg);
+        background-image: url(file:///C:/Users/USER/Desktop/CODING/PrimaGRID-Website/Images/Transition/IMG-20230329-WA0009.jpg);
     }
 }
 
