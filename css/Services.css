@@ -3,7 +3,7 @@
 }
 
 .services-section{
-    background: url(file:///C:/Users/USER/Desktop/CODING/PrimaGRID-Website/Images/pexels-cottonbro-studio-4709376.jpg);
+    background: url("../Images/pexels-cottonbro-studio-4709376.jpg");
     background-size: cover;
     background-position: center;
     padding: 60px 0;
