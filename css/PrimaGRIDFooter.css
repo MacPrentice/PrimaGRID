@@ -8,6 +8,10 @@ footer{
     color: white;
     margin-top: auto;
 }
+.sub-footer{
+    display: flex;
+    padding: 15px;
+}
 
 .footerContainer{
     width: 85%;
@@ -19,37 +23,34 @@ footer{
 }
 
 .col:nth-child(3){
-    flex-basis: 15%;
+    flex-basis: 30%;
 }
 
 .col:nth-child(1){
-    flex-basis: 15%;
+    flex-basis: 30%;
 }
 
-.col{
+.col-img{
     flex-basis: 25%;
-    padding-top: 20px;
-}
-
-.bottomPageLogo{
-    height: 200px;
-    width: 200px;
-    padding-top: 5%;
 }
 
 .motto{
     margin-top: -43px;
     font-style: italic;
     line-height: 12px;
-    font-size: 12px;
+    font-size: 10px;
     color: #ccc;
-    padding-left: 20px;
+    padding-left: 8px;
 }
 
 .col h3{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
+}
+.col-img img{
+    height: 150px;
+    width: 150px;
 }
 
 .mainLocation{
@@ -127,7 +128,7 @@ form{
     align-items: center;
     justify-content: space-between;
     border-bottom: 2px solid #ccc;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 form .far{
@@ -187,4 +188,176 @@ hr .footy{
     position: absolute;
     top: 25px;
     left: 0;
+}
+
+@media only screen and (max-width: 650px) {
+    .footerContainer{
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        column-gap: 65px;
+    }
+    .sub-footer{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .col:nth-child(3){
+        flex-basis: 80%;
+    }
+    
+    .col:nth-child(1){
+        flex-basis: 15%;
+    }
+    
+    .col-img{
+        flex-basis: 100%;
+    }
+    
+    .motto{
+        margin-top: -39px;
+        font-style: italic;
+        line-height: 12px;
+        font-size: 10px;
+        color: #ccc;
+    }
+    
+    .col h3{
+        width: fit-content;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    
+    .mainLocation{
+        width: fit-content;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .email-id{
+        width: fit-content;
+        border-bottom: 1px solid #ccc;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .email-id .far,
+    .mainLocation .fas{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    .sendMail,
+    .Ablekuma{
+        margin: 0;
+        padding: 2px;
+    }
+    
+    .Accra{
+        margin-top: 0;
+        padding-left: 25px;
+    }
+    
+    .contactlogo{
+        width: fit-content;
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    
+    .contactlogo .fas{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    .callNumber{
+        margin: 0;
+        padding: 2px;
+    }
+    
+    ul{
+        padding-left: 0;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-bottom: 12px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    form{
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 25px;
+    }
+    
+    form .far{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    form input{
+        width: 100%;
+        background: transparent;
+        color: #ccc;
+        border: 0;
+        outline: none;
+    }
+    
+    form button{
+        background: transparent;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+    }
+    
+    form button .fas{
+        font-size: 16px;
+        color: #ccc;
+    }
+
+    .social-icons{
+        padding-bottom: 20px;
+    }
+    
+    .social-icons .fab{
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color: #000;
+        background: #fff;
+        margin-right: 15px;
+        cursor: pointer;
+    
+    }
+    .copyright{
+        text-align: center;
+        font-size: 8px;
+    }
+
+
 }
