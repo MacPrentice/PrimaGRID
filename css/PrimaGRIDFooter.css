@@ -199,7 +199,7 @@ hr .footy{
         justify-content: start;
         align-items: start;
         text-align: start;
-        column-gap: 65px;
+        column-gap: 35px;
     }
     .sub-footer{
         display: block;
