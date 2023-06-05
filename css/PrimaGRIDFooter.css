@@ -206,6 +206,7 @@ hr .footy{
         justify-content: center;
         align-items: center;
         text-align: center;
+        padding: 5px;
     }
     
     .col:nth-child(3){
